@@ -95,4 +95,3 @@ for ($i = 0; $i < count($arCSV); $i++) {
         $updateElement->Update($productId, $arUpdateElement);
     }
 }
-?>
