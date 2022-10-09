@@ -3,7 +3,7 @@ CModule::IncludeModule("iblock");
 
 $ibId = 8; //Id инфоблока
 
-$fileCSV = "test.csv";
+$fileCSV = "test.csv"; //Путь к CSV-файлу
 $arCSV = [];
 
 if (($file = fopen($fileCSV, 'r')) !== false) {
