@@ -1,4 +1,8 @@
 <?
+require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
+$APPLICATION->SetTitle("1");
+?>
+<?
 CModule::IncludeModule("iblock");
 
 $ibId = 8; //Id инфоблока
@@ -95,3 +99,5 @@ for ($i = 0; $i < count($arCSV); $i++) {
         $updateElement->Update($productId, $arUpdateElement);
     }
 }
+?>
+<? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>
